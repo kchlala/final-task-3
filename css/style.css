@@ -1,0 +1,995 @@
+.section-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 31, 36, 0.447)), to(rgba(30, 31, 36, 0.447))), url(https://motors.stylemixthemes.com/magazine/wp-content/uploads/sites/8/2018/01/7.jpg);
+  background-image: linear-gradient(rgba(30, 31, 36, 0.447), rgba(30, 31, 36, 0.447)), url(https://motors.stylemixthemes.com/magazine/wp-content/uploads/sites/8/2018/01/7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 230px 100px 170px 100px;
+  text-align: center;
+  background-position: center;
+}
+
+.section-1 .news {
+  color: white;
+  font-size: 65px;
+}
+
+.section-1 h1 {
+  color: white;
+  font-size: 60px;
+  display: block;
+  font-weight: 700;
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.section-1 .little {
+  color: white;
+  padding-right: 7px;
+}
+
+.section-1 span {
+  color: white;
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-2 {
+  padding: 80px 0px;
+  width: 80%;
+  margin: auto;
+}
+
+.section-2 .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 50px;
+}
+
+.section-2 .texts h2 {
+  display: block;
+  font-weight: 600;
+  color: #232628;
+  font-size: 30px;
+  position: relative;
+}
+
+.section-2 .texts h2::after {
+  content: "";
+  display: block;
+  background: #3c97fd;
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  z-index: 1;
+}
+
+.section-2 .texts span {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-2 .texts i {
+  color: #aeaeae;
+  font-size: 16px;
+}
+
+.section-2 .all-cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-2 .all-cars .bluecar {
+  width: 60%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.section-2 .all-cars .bluecar:hover .quality {
+  background-color: #3c97fd;
+}
+
+.section-2 .all-cars .bluecar img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-2 .all-cars .bluecar .new {
+  position: absolute;
+  padding: 8px 12px;
+  background-color: #ff1b1b;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+  left: 30px;
+  top: 70%;
+}
+
+.section-2 .all-cars .bluecar .quality {
+  background-color: rgba(42, 64, 69, 0.3);
+  position: absolute;
+  left: 0;
+  padding: 20px 30px;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-2 .all-cars .bluecar .quality h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.section-2 .all-cars .bluecar .quality .tarixler {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .all-cars .bluecar .quality .tarixler i {
+  color: white;
+  padding-right: 7px;
+}
+
+.section-2 .all-cars .bluecar .quality .tarixler span {
+  color: white;
+  padding-right: 10px;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-2 .all-cars .two-cars {
+  width: 20%;
+}
+
+.section-2 .all-cars .two-cars .car-1 {
+  position: relative;
+  width: 95%;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.section-2 .all-cars .two-cars .car-1:hover .quality-1 {
+  background-color: #3c97fd;
+}
+
+.section-2 .all-cars .two-cars .car-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-2 .all-cars .two-cars .car-1 .interview {
+  position: absolute;
+  padding: 8px 12px;
+  background-color: #ff1b1b;
+  text-decoration: none;
+  color: white;
+  font-size: 9px;
+  display: inline-block;
+  font-weight: 600;
+  left: 0px;
+  top: 67.1%;
+}
+
+.section-2 .all-cars .two-cars .car-1 .quality-1 {
+  background-color: rgba(42, 64, 69, 0.3);
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-2 .all-cars .two-cars .car-1 .quality-1 h5 {
+  color: white;
+  font-size: 13px;
+}
+
+.section-3 {
+  width: 80%;
+  margin: auto;
+}
+
+.section-3 .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-3 .general .left {
+  margin-right: 20px;
+  width: 59%;
+}
+
+.section-3 .general .left .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 20px;
+}
+
+.section-3 .general .left .texts h2 {
+  display: block;
+  font-weight: 600;
+  color: #232628;
+  font-size: 30px;
+  position: relative;
+}
+
+.section-3 .general .left .texts h2::after {
+  content: "";
+  display: block;
+  background: #3c97fd;
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  z-index: 1;
+}
+
+.section-3 .general .left .texts span {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-3 .general .left .texts i {
+  color: #aeaeae;
+  font-size: 16px;
+}
+
+.section-3 .general .left .layout, .section-3 .section-5 .general .left .layout-1, .section-5 .section-3 .general .left .layout-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px 0px;
+  border-bottom: 1px solid #cbc9c9;
+}
+
+.section-3 .general .left .layout:hover .fifth .little, .section-3 .section-5 .general .left .layout-1:hover .fifth .little, .section-5 .section-3 .general .left .layout-1:hover .fifth .little {
+  color: #3c97fd;
+}
+
+.section-3 .general .left .layout:hover .fifth span, .section-3 .section-5 .general .left .layout-1:hover .fifth span, .section-5 .section-3 .general .left .layout-1:hover .fifth span {
+  color: #3c97fd;
+}
+
+.section-3 .general .left .layout:hover .fifth .news, .section-3 .section-5 .general .left .layout-1:hover .fifth .news, .section-5 .section-3 .general .left .layout-1:hover .fifth .news {
+  color: white;
+}
+
+.section-3 .general .left .layout:hover .shekil .shr, .section-3 .section-5 .general .left .layout-1:hover .shekil .shr, .section-5 .section-3 .general .left .layout-1:hover .shekil .shr {
+  visibility: visible;
+  opacity: 1;
+}
+
+.section-3 .general .left .layout:hover .shekil .overlay, .section-3 .section-5 .general .left .layout-1:hover .shekil .overlay, .section-5 .section-3 .general .left .layout-1:hover .shekil .overlay {
+  opacity: 1;
+}
+
+.section-3 .general .left .layout .shekil, .section-3 .section-5 .general .left .layout-1 .shekil, .section-5 .section-3 .general .left .layout-1 .shekil {
+  width: 40%;
+  position: relative;
+}
+
+.section-3 .general .left .layout .shekil .overlay, .section-3 .section-5 .general .left .layout-1 .shekil .overlay, .section-5 .section-3 .general .left .layout-1 .shekil .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(35, 36, 38, 0.363);
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-3 .general .left .layout .shekil img, .section-3 .section-5 .general .left .layout-1 .shekil img, .section-5 .section-3 .general .left .layout-1 .shekil img {
+  width: 90%;
+  height: 90%;
+}
+
+.section-3 .general .left .layout .shr, .section-3 .section-5 .general .left .layout-1 .shr, .section-5 .section-3 .general .left .layout-1 .shr {
+  width: 57px;
+  height: 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background: #3c97fd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.section-3 .general .left .fifth {
+  width: 60%;
+}
+
+.section-3 .general .left .fifth h3 {
+  font-size: 20px;
+  display: block;
+  font-weight: 510;
+  padding-bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-3 .general .left .fifth .news {
+  padding: 4px 8px;
+  background-color: #18ca3d;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.section-3 .general .left .fifth span {
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 500;
+  color: #8c8a8a;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.section-3 .general .left .fifth .little {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
+  font-weight: 400;
+  color: #8c8a8a;
+  padding: 0px 5px 0px 16px;
+}
+
+.section-3 .general .left .fifth p {
+  margin-top: 18px;
+  color: #8f8f8f;
+  font-size: 13px;
+}
+
+.section-3 .general .right {
+  margin-left: 70px;
+  width: 33%;
+  padding-top: 30px;
+}
+
+.section-3 .general .right h3 {
+  font-size: 16px;
+  display: block;
+  font-weight: 650;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-3 .general .right .qutular {
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #cbc9c9;
+}
+
+.section-3 .general .right .qutular i {
+  color: white;
+  font-size: 23px;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.section-3 .general .right .qutular span {
+  color: white;
+  font-size: 12px;
+  display: block;
+}
+
+.section-3 .general .right .qutular .qutu, .section-3 .general .right .qutular .qutu-1, .section-3 .general .right .qutular .qutu-2, .section-3 .general .right .qutular .qutu-3 {
+  width: 28%;
+  padding: 14px 27px;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.section-3 .general .right .qutular .qutu-1 {
+  background-color: #3b5998;
+}
+
+.section-3 .general .right .qutular .qutu-2 {
+  background-color: #1dcaff;
+}
+
+.section-3 .general .right .qutular .qutu-3 {
+  background-color: #e52d27;
+}
+
+.section-3 .general .right .layout, .section-3 .section-5 .general .right .left .layout-1, .section-5 .section-3 .general .right .left .layout-1, .section-3 .section-5 .general .left .right .layout-1, .section-5 .section-3 .general .left .right .layout-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.section-3 .general .right .layout:hover .fifth p, .section-3 .section-5 .general .right .left .layout-1:hover .fifth p, .section-5 .section-3 .general .right .left .layout-1:hover .fifth p, .section-3 .section-5 .general .left .right .layout-1:hover .fifth p, .section-5 .section-3 .general .left .right .layout-1:hover .fifth p {
+  color: #3c97fd;
+}
+
+.section-3 .general .right .layout .shekil, .section-3 .section-5 .general .right .left .layout-1 .shekil, .section-5 .section-3 .general .right .left .layout-1 .shekil, .section-3 .section-5 .general .left .right .layout-1 .shekil, .section-5 .section-3 .general .left .right .layout-1 .shekil {
+  width: 30%;
+}
+
+.section-3 .general .right .layout .shekil img, .section-3 .section-5 .general .right .left .layout-1 .shekil img, .section-5 .section-3 .general .right .left .layout-1 .shekil img, .section-3 .section-5 .general .left .right .layout-1 .shekil img, .section-5 .section-3 .general .left .right .layout-1 .shekil img {
+  width: 90%;
+  height: 90%;
+}
+
+.section-3 .general .right .fifth {
+  width: 70%;
+}
+
+.section-3 .general .right .fifth p {
+  font-size: 12px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.section-3 .general .right .fifth span {
+  font-size: 12px;
+  color: #8c8a8a;
+  padding-right: 10px;
+}
+
+.section-3 .general .right .fifth .little {
+  font-size: 11px;
+  display: inline-block;
+  font-weight: 400;
+  color: #8c8a8a;
+  padding: 0px 5px;
+}
+
+.section-3 .general .right .subs {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 40px 35px;
+  margin-top: 30px;
+  width: 95%;
+}
+
+.section-3 .general .right .subs h2 {
+  font-size: 22px;
+}
+
+.section-3 .general .right .subs input {
+  width: 95%;
+  height: 50px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.section-3 .general .right .subs input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.section-3 .general .right .subs input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.section-3 .general .right .subs input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.section-3 .general .right .subs input::placeholder {
+  font-size: 15px;
+}
+
+.section-3 .general .right .subs button {
+  width: 95%;
+  color: white;
+  background-color: #3c97fd;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-4 {
+  margin-top: 40px;
+  background-color: black;
+  padding: 50px 0px;
+}
+
+.section-4 .recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-4 .recent h2 {
+  color: white;
+  font-size: 27px;
+  display: block;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-4 .recent .icons {
+  border-radius: 2px;
+  border: 1px solid #cecece;
+}
+
+.section-4 .recent .icons i {
+  border-left: 1px solid #c1c0c0;
+  color: #aeadad;
+  font-size: 25px;
+  padding: 10px 15px;
+}
+
+.section-4 .cars {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.section-4 .cars .car, .section-4 .cars .car-2, .section-4 .cars .car-1 {
+  margin: 0px 9px;
+  width: 35%;
+}
+
+.section-4 .cars .car:hover .ford, .section-4 .cars .car-2:hover .ford, .section-4 .cars .car-1:hover .ford {
+  background-color: #3c97fd;
+}
+
+.section-4 .cars .car:hover .image .overlay, .section-4 .cars .car-2:hover .image .overlay, .section-4 .cars .car-1:hover .image .overlay {
+  opacity: 1;
+}
+
+.section-4 .cars .car:hover .image .circ, .section-4 .cars .car-2:hover .image .circ, .section-4 .cars .car-1:hover .image .circ {
+  opacity: 1;
+  visibility: visible;
+}
+
+.section-4 .cars .car .image, .section-4 .cars .car-2 .image, .section-4 .cars .car-1 .image {
+  position: relative;
+}
+
+.section-4 .cars .car .image img, .section-4 .cars .car-2 .image img, .section-4 .cars .car-1 .image img {
+  width: 100%;
+}
+
+.section-4 .cars .car .image .overlay, .section-4 .cars .car-2 .image .overlay, .section-4 .cars .car-1 .image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(27, 28, 28, 0.687);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-4 .cars .car .image .circ, .section-4 .cars .car-2 .image .circ, .section-4 .cars .car-1 .image .circ {
+  font-size: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.section-4 .cars .car .ford, .section-4 .cars .car-2 .ford, .section-4 .cars .car-1 .ford {
+  background-color: #1f1f22;
+  padding: 13px 18px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-4 .cars .car .ford h6, .section-4 .cars .car-2 .ford h6, .section-4 .cars .car-1 .ford h6 {
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
+  width: 65%;
+  display: block;
+  font-family: 'Outfit', sans-serif;
+}
+
+.section-4 .cars .car .ford span, .section-4 .cars .car-2 .ford span, .section-4 .cars .car-1 .ford span {
+  padding-right: 20px;
+  color: white;
+}
+
+.section-4 .cars .car .ford .little, .section-4 .cars .car-2 .ford .little, .section-4 .cars .car-1 .ford .little {
+  padding-right: 7px;
+  font-size: 19px;
+  color: white;
+}
+
+.section-4 .cars .car-2 {
+  margin-right: -18%;
+}
+
+.section-4 .cars .car-1 {
+  margin-left: -18%;
+}
+
+.section-5 {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0px;
+}
+
+.section-5 .text {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 50px;
+}
+
+.section-5 .text h2 {
+  display: block;
+  font-weight: 600;
+  color: #232628;
+  font-size: 30px;
+  position: relative;
+}
+
+.section-5 .text h2::after {
+  content: "";
+  display: block;
+  background: #3c97fd;
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  z-index: 1;
+}
+
+.section-5 .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-5 .general .left {
+  width: 35%;
+}
+
+.section-5 .general .left .layout, .section-5 .general .left .layout-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.section-5 .general .left .layout:hover .fifth p, .section-5 .general .left .layout-1:hover .fifth p {
+  color: #3c97fd;
+}
+
+.section-5 .general .left .layout .shekil, .section-5 .general .left .layout-1 .shekil {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.section-5 .general .left .layout .shekil img, .section-5 .general .left .layout-1 .shekil img {
+  width: 90%;
+  height: 100%;
+}
+
+.section-5 .general .left .fifth {
+  width: 70%;
+}
+
+.section-5 .general .left .fifth p {
+  font-size: 14px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-5 .general .left .fifth span {
+  font-size: 14px;
+  color: #3c97fd;
+  padding-right: 10px;
+}
+
+.section-5 .general .left .fifth .little {
+  font-size: 17px;
+  display: inline-block;
+  font-weight: 400;
+  color: #3c97fd;
+  padding: 0px 5px;
+}
+
+.section-5 .general .left .layout-1 {
+  background-color: #3c97fd;
+}
+
+.section-5 .general .left .layout-1 p {
+  color: white;
+}
+
+.section-5 .general .left .layout-1 .little {
+  color: white;
+}
+
+.section-5 .general .left .layout-1 span {
+  color: white;
+}
+
+.section-5 .general .left .layout-1:hover .fifth p {
+  color: white;
+}
+
+.section-5 .general .right {
+  margin-left: 30px;
+  width: 65%;
+}
+
+.section-5 .general .right i {
+  color: #3c97fd;
+  padding-right: 7px;
+}
+
+.section-5 .general .right span {
+  font-size: 13px;
+  padding-right: 13px;
+  color: #919090;
+}
+
+.section-5 .general .right h4 {
+  margin-bottom: 25px;
+}
+
+.section-5 .general .right .image {
+  margin-top: 37px;
+  position: relative;
+}
+
+.section-5 .general .right .image:hover .zeros {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-5 .general .right .image:hover a {
+  opacity: 1;
+}
+
+.section-5 .general .right .image a {
+  text-decoration: none;
+  padding: 9px 20px;
+  background-color: #3c97fd;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  left: 49%;
+  font-size: 14px;
+  font-weight: 700;
+  bottom: 20%;
+  z-index: 2;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-5 .general .right .image a:hover {
+  background-color: #175fb1;
+}
+
+.section-5 .general .right .image .zeros {
+  background-color: rgba(41, 55, 66, 0.8);
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 0px;
+  bottom: 0px;
+  width: 100%;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.section-5 .general .right .image .zeros .zero {
+  padding: 0px 17px;
+  text-align: center;
+}
+
+.section-5 .general .right .image .zeros .zero h2 {
+  font-size: 40px;
+  display: block;
+  font-weight: 700;
+  color: white;
+}
+
+.section-5 .general .right .image .zeros .zero p {
+  color: white;
+}
+
+.section-5 .general .right .image img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section-1 {
+    background-size: 600px;
+    padding: 80px 0px;
+  }
+  .section-1 h1 {
+    font-size: 30px;
+  }
+  .section-1 .news {
+    font-size: 40px;
+  }
+  .section-2 {
+    width: 95%;
+    margin: auto;
+  }
+  .section-2 .all-cars .bluecar {
+    width: 100%;
+  }
+  .section-2 .all-cars .bluecar .new {
+    top: 50%;
+  }
+  .section-2 .all-cars .two-cars {
+    width: 50%;
+  }
+  .section-2 .all-cars .two-cars .car-1 {
+    width: 95%;
+    margin: 10px;
+  }
+  .section-2 .all-cars .two-cars .car-1 .interview {
+    top: 72%;
+  }
+  .section-3 {
+    width: 95%;
+    margin: auto;
+  }
+  .section-3 .general .left {
+    width: 100%;
+  }
+  .section-3 .general .right {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .section-4 .cars {
+    overflow: hidden;
+    overflow: scroll;
+  }
+  .section-4 .cars .car, .section-4 .cars .car-2, .section-4 .cars .car-1 {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 85%;
+  }
+  .section-4 .cars .car-1 {
+    width: 85%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-left: 0%;
+  }
+  .section-4 .cars .car-2 {
+    margin-right: 0%;
+    width: 85%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .section-5 {
+    width: 95%;
+    margin: auto;
+  }
+  .section-5 .general {
+    display: unset;
+  }
+  .section-5 .general .left {
+    width: 100%;
+  }
+  .section-5 .general .right {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .section-5 .general .right h4 {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
